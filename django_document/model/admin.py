@@ -6,7 +6,6 @@ from .models import (
     Pizza, Topping,
     FacebookUser, InstagramUser,
     Idol, Group, Membership,
-    Place,
 )
 
 admin.site.register(Car)
@@ -19,5 +18,3 @@ admin.site.register(InstagramUser)
 admin.site.register(Idol)
 admin.site.register(Group)
 admin.site.register(Membership)
-
-admin.site.register(Place)

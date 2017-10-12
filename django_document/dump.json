@@ -1,0 +1,717 @@
+[
+{
+    "model": "making_queries.blog",
+    "pk": 1,
+    "fields": {
+        "name": "Beatles Blog",
+        "tagline": "All the lastest Beatles news."
+    }
+},
+{
+    "model": "making_queries.blog",
+    "pk": 2,
+    "fields": {
+        "name": "Your blog",
+        "tagline": ""
+    }
+},
+{
+    "model": "making_queries.blog",
+    "pk": 3,
+    "fields": {
+        "name": "Another blog",
+        "tagline": ""
+    }
+},
+{
+    "model": "making_queries.blog",
+    "pk": 4,
+    "fields": {
+        "name": "Beatles Blog",
+        "tagline": "All the latest Beatles news."
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 1,
+    "fields": {
+        "name": "Joe",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 2,
+    "fields": {
+        "name": "Joe",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 3,
+    "fields": {
+        "name": "Joe",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 4,
+    "fields": {
+        "name": "John",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 5,
+    "fields": {
+        "name": "Paul",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 6,
+    "fields": {
+        "name": "George",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 7,
+    "fields": {
+        "name": "Ringo",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 1,
+    "fields": {
+        "blog": 2,
+        "headline": "My first entry",
+        "body_text": "",
+        "pub_date": null,
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": [
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 2,
+    "fields": {
+        "blog": 3,
+        "headline": "Another blog entry",
+        "body_text": "",
+        "pub_date": null,
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": []
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 3,
+    "fields": {
+        "blog": 4,
+        "headline": "2006 entry",
+        "body_text": "",
+        "pub_date": "2006-01-01",
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": []
+    }
+},
+{
+    "model": "model.person",
+    "pk": 1,
+    "fields": {
+        "name": "Fred Flintstone",
+        "shirt_size": "L"
+    }
+},
+{
+    "model": "model.car",
+    "pk": 1,
+    "fields": {
+        "manufacturer": 1,
+        "name": "\uc18c\ub098\ud0c0"
+    }
+},
+{
+    "model": "model.manufacturer",
+    "pk": 1,
+    "fields": {
+        "name": "\ud604\ub300"
+    }
+},
+{
+    "model": "model.fruit",
+    "pk": "Aplle",
+    "fields": {}
+},
+{
+    "model": "model.fruit",
+    "pk": "Pear",
+    "fields": {}
+},
+{
+    "model": "model.pizza",
+    "pk": 1,
+    "fields": {
+        "name": "\uccb4\ub2e4\uce58\uc988\ubca0\uc774\ucee8\ud53c\uc790",
+        "toppings": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "model.pizza",
+    "pk": 2,
+    "fields": {
+        "name": "\ud558\uc640\uc774\uc5b8 \ud53c\uc790",
+        "toppings": [
+            1,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 1,
+    "fields": {
+        "name": "\uce58\uc988"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 2,
+    "fields": {
+        "name": "\uccb4\ub2e4\uce58\uc988"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 3,
+    "fields": {
+        "name": "\ubca0\uc774\ucee8"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 4,
+    "fields": {
+        "name": "\ud584"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 5,
+    "fields": {
+        "name": "\ud30c\uc778\uc560\ud50c"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 6,
+    "fields": {
+        "name": "\uce58\uc988"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 7,
+    "fields": {
+        "name": "\ud398\ud37c\ub85c\ub2c8"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 1,
+    "fields": {
+        "name": "\ucd5c\uc720\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 2,
+    "fields": {
+        "name": "\uc720\uc5f0\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 3,
+    "fields": {
+        "name": "\uae40\ub3c4\uc5f0"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 4,
+    "fields": {
+        "name": "\uae40\uc138\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 5,
+    "fields": {
+        "name": "\uc804\uc18c\ubbf8"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 6,
+    "fields": {
+        "name": "\uae40\uccad\ud558"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 7,
+    "fields": {
+        "name": "\uc8fc\uacb0\uacbd"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 8,
+    "fields": {
+        "name": "\uae40\uc18c\ud61c"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 9,
+    "fields": {
+        "name": "\uac15\ubbf8\ub098"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 10,
+    "fields": {
+        "name": "\uc784\ub098\uc601"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 11,
+    "fields": {
+        "name": "\uc815\ucc44\uc5f0"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 12,
+    "fields": {
+        "name": "\uc815\ucc44\uc5f0"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 13,
+    "fields": {
+        "name": "\uc784\ub098\uc601"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 14,
+    "fields": {
+        "name": "\uac15\ubbf8\ub098"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 15,
+    "fields": {
+        "name": "\uae40\uc18c\ud61c"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 16,
+    "fields": {
+        "name": "\uc8fc\uacb0\uacbd"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 17,
+    "fields": {
+        "name": "\uae40\uccad\ud558"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 18,
+    "fields": {
+        "name": "\uc804\uc18c\ubbf8"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 19,
+    "fields": {
+        "name": "\uae40\uc138\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 20,
+    "fields": {
+        "name": "\uae40\ub3c4\uc5f0"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 21,
+    "fields": {
+        "name": "\uc720\uc5f0\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 22,
+    "fields": {
+        "name": "\ucd5c\uc720\uc815"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 1,
+    "fields": {
+        "name": "\ud504\ub9b0\uc2a4\ud2f4",
+        "debut_date": "2017-10-10"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 2,
+    "fields": {
+        "name": "\uad6c\uad6c\ub2e8",
+        "debut_date": "2017-10-10"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 3,
+    "fields": {
+        "name": "\uc6b0\uc8fc\uc18c\ub140",
+        "debut_date": "2017-10-10"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 4,
+    "fields": {
+        "name": "i.o.i",
+        "debut_date": "2017-10-10"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 5,
+    "fields": {
+        "name": "i.o.i",
+        "debut_date": "2016-05-04"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 6,
+    "fields": {
+        "name": "i.o.i",
+        "debut_date": "2016-05-04"
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 1,
+    "fields": {
+        "idol": 1,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 2,
+    "fields": {
+        "idol": 2,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 3,
+    "fields": {
+        "idol": 3,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 4,
+    "fields": {
+        "idol": 4,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 5,
+    "fields": {
+        "idol": 5,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 6,
+    "fields": {
+        "idol": 6,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 7,
+    "fields": {
+        "idol": 7,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 8,
+    "fields": {
+        "idol": 8,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 9,
+    "fields": {
+        "idol": 9,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 10,
+    "fields": {
+        "idol": 10,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 11,
+    "fields": {
+        "idol": 11,
+        "group": 4,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommender": []
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 5,
+    "fields": {
+        "name": "\uc2a4\uba38\ud504",
+        "friends": [
+            5
+        ]
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 6,
+    "fields": {
+        "name": "\uac00\uac00\uba5c",
+        "friends": []
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 7,
+    "fields": {
+        "name": "\ud30c\ud30c\uc2a4\uba38\ud504",
+        "friends": []
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 8,
+    "fields": {
+        "name": "\ud30c\uc778\uc560\ud50c",
+        "friends": [
+            8,
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 9,
+    "fields": {
+        "name": "\ud30c\uc778",
+        "friends": [
+            10
+        ]
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 10,
+    "fields": {
+        "name": "\ud0a4\uc704",
+        "friends": [
+            8,
+            9,
+            10,
+            11
+        ]
+    }
+},
+{
+    "model": "model.facebookuser",
+    "pk": 11,
+    "fields": {
+        "name": "\ubc14\ub098\ub098",
+        "friends": [
+            8,
+            10
+        ]
+    }
+},
+{
+    "model": "model.instagramuser",
+    "pk": 1,
+    "fields": {
+        "name": "min_2",
+        "following": []
+    }
+},
+{
+    "model": "model.instagramuser",
+    "pk": 2,
+    "fields": {
+        "name": "\ud751\ud45c\ubc94",
+        "following": []
+    }
+},
+{
+    "model": "model.instagramuser",
+    "pk": 3,
+    "fields": {
+        "name": "\uae40\ubd84\ud64d",
+        "following": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "model.instagramuser",
+    "pk": 4,
+    "fields": {
+        "name": "demoon",
+        "following": []
+    }
+},
+{
+    "model": "model.instagramuser",
+    "pk": 5,
+    "fields": {
+        "name": "june",
+        "following": []
+    }
+},
+{
+    "model": "model.place",
+    "pk": 1,
+    "fields": {
+        "name": "Demon Dogs",
+        "address": "944 W. Fullerton"
+    }
+},
+{
+    "model": "model.place",
+    "pk": 2,
+    "fields": {
+        "name": "Ace Hardware",
+        "address": "1013 N. Ashland"
+    }
+},
+{
+    "model": "model.restaurant",
+    "pk": 1,
+    "fields": {
+        "serves_hot_dogs": true,
+        "serves_pizza": false
+    }
+},
+{
+    "model": "model.restaurant",
+    "pk": 2,
+    "fields": {
+        "serves_hot_dogs": true,
+        "serves_pizza": false
+    }
+}
+]
